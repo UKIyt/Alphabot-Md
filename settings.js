@@ -24,25 +24,25 @@ global.sewabotnya = `
 edit sewabot di file settings.js line 24
 `
 // setting 
-global.firtsChat = true //send firts message to new user
-global.autoread = true // auto read message
-global.antidelete = false // anti delete
+global.firtsChat = false  //send firts message to new user
+global.autoread = false  // auto read message
+global.antidelete = true // anti delete
 global.antiviewonce = true // anti view once
 global.autobio = false //auto ganti bio
-global.anticall = true //anti call, jika true maka org yg nelpon bot auto di blokir
-global.userRegister = false
+global.anticall = false //anti call, jika true maka org yg nelpon bot auto di blokir
+global.userRegister = true
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
-global.autolevelup = true
+global.autolevelup = false 
 global.auto_antilink = false //jika true, bot (admin) otomatis menghapus pesan & mengeluarkan member yang mengirim link grup
-global.auto_antilink2 = true  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim link grup
+global.auto_antilink2 = false   //jika true, bot (admin) otomatis menghapus pesan member yang mengirim link grup
 global.auto_badword = false //jika true, bot (admin) otomatis menghapus pesan & mengeluarkan member yg mengirim kata kasar
-global.auto_badword2 = true  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim kata kasar
+global.auto_badword2 = false   //jika true, bot (admin) otomatis menghapus pesan member yang mengirim kata kasar
 global.auto_antiwame = false  //jika true, bot (admin) otomatis menghapus pesan & mengeluarkan member yang mengirim link grup
 global.auto_antiwame2 = true  //jika true, bot (admin) otomatis menghapus pesan member yang mengirim link grup
-global.autowelcome = true //auto welcome msg all group
-global.autodetectpromote = true //auto detect admin all group
-global.autodetectdemote = true //auto detect un admin all group
-global.autogoodbye = true //auto goodbye msg all group
+global.autowelcome = false  //auto welcome msg all group
+global.autodetectpromote = false  //auto detect admin all group
+global.autodetectdemote = false  //auto detect un admin all group
+global.autogoodbye = false  //auto goodbye msg all group
 global.groupOnly = false //bot hanya bisa di gunakan dalam grup jika true
 
 //language
@@ -54,18 +54,18 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername = "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama kalian
-global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
-global.youtube = "https://youtube.com/c/@ZeeoneOfc" //bebas asal jan hapus
-global.myweb2 = "https://s.id/zeeoneofc" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
+global.botname = "𝙁𝙀𝙉𝙄𝙓 𝘾𝙊𝘿𝙀" //namabot kalian
+global.ownername = "𝙈𝙍_𝙍𝙊𝙈𝘼𝙉𝙏𝙄𝘾" //nama kalian
+global.myweb = "fenixprogrammerz@gmail.com" //bebas asal jan hapus
+global.youtube = "fenixprogrammerz@gmail.com" //bebas asal jan hapus
+global.myweb2 = "fenixprogrammerz@gmail.com" //bebas
+global.email = "fenixprogrammerz@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Makassar' //  timezone wib
 global.premium_fitur = ["ai", "openai", "chatgpt"] //tambahin aja sendiri, soalnya gk semua org mau fiturnya premium jadi gw buat kyk gini aja, biar bisa custom fitur mana aja yang bakal di jadiin premium
 global.badword_list = ["asu", "anjir"] //tambahin sendiri kata² nya, gunakan huruf kecil
-global.premium = ['62887435047326'] //premium user
-global.owner = ["62887435047326", "62887435047326"] //ganti agar fitur owner bisa di gunakan
+global.premium = ['94773010580'] //premium user
+global.owner = ["94773010580", "94773010580"] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = owner[0] + "@s.whatsapp.net"
 global.ownernomerr = "+"+ownernomer //tidak perlu di edit
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
